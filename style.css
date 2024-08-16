@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins";
+
+}
+.subbody{
+    padding-left: 150px;
+    padding-right: 150px; 
+}
+p{
+    font-family: "Roboto";
+    line-height: 1.4rem ;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1250px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+nav{
+    background-color: #a8c1d4;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+.main-nav{
+    justify-content: space-between;
+    padding: 8px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Logo{
+    width: 145px;
+    height: 50px;
+}
+.nav-links ul{
+    gap:24px;
+}
+.hover-nav-link{
+    cursor: pointer;
+}
+.hover-nav-link:hover{
+    color: black;
+}
+.hover-nav-link:active{
+    color:rgb(20, 20, 20);
+}
+
+.news-inputs{
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+ 
+  .search-buttons {
+    padding: 10px 10px;
+    border: 1px;
+    border-left: none;
+    background-color: #06a821;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .search-buttons:hover {
+    background-color: #057a0f;
+  }
+
+.login{
+    display: flex;
+    gap: 12px;
+}
+
+  .sing-buttons{
+    padding: 12px 12px;
+    border: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0750ec;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    transition: background-color 0.3s;
+  }
+  .login-buttons{
+    padding: 12px 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px;
+    border:  gray;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    transition: background-color 0.3s;
+  }
+
+  .sing-buttons:hover {
+    background-color: #0413a1; 
+}
+.login-buttons:hover{
+    background-color: #eaebf5; 
+}
+
+
+main{
+    padding-block: 20px;
+    margin-top: 80px;
+}
+.card-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    align-items: start;
+}
+.card{
+    width: 320px;
+    min-height: 300px;
+    box-shadow: 0 0 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #fff; 
+    transition: all 0.3 ease;
+}
+.card:hover{
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translate(-1px);
+}
+.card-header img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card-content{
+    padding: 12px;
+}
+.news-source{
+    margin-block: 12px ;
+}
+.itmes.active{
+    color: aqua;
+}
+
+
+
+
+.footer {
+    background-color: #535151;
+    color: #f4f4f4;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 30px;
+    padding-left: 30px;
+}
+.about{
+    flex: 1;
+    margin-left: 10px;
+}
+.flex-ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap; 
+        gap: 50px; 
+}
+.flex-ul li{
+    cursor: pointer;
+}
+.i:hover{
+    transform : translateY(0.8px)
+}
+.h5{
+    margin-top: 5px;
+}
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section p, 
+.footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.fp{
+    margin-top: 5px;
+    font-family: "Poppins";
+}
+.footer-section ul li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer-section ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff6600;
+}
+
+
+.footer-bottom {
+    background-color: #222;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.logo-marquee {
+    overflow: hidden;
+    position: relative;
+    background-color: #f1efef; /* Background color above the footer */
+    padding: 10px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    animation: marquee 20s linear infinite;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 70px;
+}
+
+.company-logo {
+    margin-right: 30px; /* Space between logos */
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+

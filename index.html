@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jagjitworldwidenews.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="subbody">
+        <nav class="na">
+            <div class="main-nav container flex">
+                <img src="asset/jwn.png" class="Logo">
+                <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-nav-link items" id="sp" onclick="onNavItemClick('Sports')"> Sports </li>
+                    <li class="hover-nav-link items" id="fi" onclick="onNavItemClick('Finance')"> Finance </li>
+                    <li class="hover-nav-link items" id="gp" onclick="onNavItemClick('GeoPolitics')"> GeoPolitics </li>
+                    <li class="hover-nav-link items" id="tech" onclick="onNavItemClick('Technology')"> Technology </li>
+                    <li class="hover-nav-link items" id="sci" onclick="onNavItemClick('Science')"> Science </li>
+                    
+                </ul>
+               
+            </div>
+
+           <div class="login">
+            <a href="singup/singup.html"> <button type="submit" class="sing-buttons" id="sing-button" >
+                Singup
+        </button></a>   
+           <a href="login/login.html"> 
+            <button type="submit" class="login-buttons" id="login-button">
+            <h4 style="color: black;">Login</h4>
+        </button> </a> 
+            </div>
+
+
+
+            <div class="search-bar ">
+                <form class="search-form" action="#" method="get">
+                    <input id="search-text" type="text" class="news-inputs search-inputs" placeholder="Search" />
+                    <button type="submit" class="search-buttons" id="search-button">
+                            search
+                    </button>
+
+             </div>
+           </div>
+                       
+        </nav>
+
+        <div class="virticle flex"> 
+
+        
+    <main>
+        <div class="card-container container flex " id="card-container">
+        </div>
+    </main>
+    
+    
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="tg.png" alt="img" id="news-image">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title"></h3>
+                <h6 class="news-source" id="news-source"></h6>
+                <p class="news-desc" id="news-desc"></p>
+            </div>
+        </div>
+    </template>  
+    </div>
+    </div>
+
+
+
+    <div class="logo-marquee">
+        <h3 style="text-align: center;"> Our top trusted Coustomers </h3>
+        <div class="logo-container">
+            <img src="asset/google.png" alt="Company Logo 1" class="company-logo">
+            <img src="asset/amazon.png" alt="Company Logo 2" class="company-logo">
+            <img src="asset/nvidia.png" alt="Company Logo 3" class="company-logo">
+            <img src="asset/saudi.png" alt="Company Logo 3" class="company-logo">
+            <img src="asset/Aljazeera_eng.svg.png" alt="Company Logo 3" class="company-logo">
+            <img src="asset/nasa.png" alt="Company Logo 3" class="company-logo">
+            <img src="asset/meta.png" alt="Company Logo 3" class="company-logo">
+            <img src="asset/spaceX.png" alt="Company Logo 3" class="company-logo">
+        </div>
+    </div>
+
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h2>About Us</h2>
+            <p>We provide the latest news from around the world, bringing you updates on the most important stories.</p>
+            <p class="fp">Countries who prefer our media house &nbsp; :- </p>
+            <h5 class="h5">USA , Australia , Canada , India , China , UAE , Mexico , Japan , South Korea , Israel , Iran , African Union , Brazil , Russia , Turkey , Pakistan , NZ , Kuwait , Europen Union and others .</h5>
+         </div>
+
+          <div class="footer-section links ">
+            <h2>Social Media Links</h2>
+            <ul class="flex-ul ">
+                <li><a href="https://www.youtube.com/@jollegeverse3211"> <img src="asset/youtube.png" class="i"></a></li>
+                <li><a href="https://www.linkedin.com/in/jagjit-singh-b131071b7/"><img src="asset/linkedin.png" class="i"></a></li>
+                <li><a href="https://github.com/MatrixEye0"><img src="asset/github.png" class="i"></a></li>
+                <li><a href="https://www.instagram.com/jagjitsingh941/"><img src="asset/instagram.png" class="i"></a></li>
+                
+            </ul>
+           <div class="fc" style="margin-top: 5px;">
+            <h5 style="margin-bottom: 10px;"> Contact :-</h5>
+            <h5 style="margin-bottom: 5px;">Phone &nbsp; :- &nbsp;  9823043827</h5>
+            <h5>Email &nbsp;:- &nbsp;jagjitwoldwide98@gmail.com</h5>
+           </div>
+          </div>
+           
+
+
+        </div>
+       <div class="footer-bottom">
+        &copy; 2024 NewsSite | Designed by JAGJIT SINGH | Head Office Delhi
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
