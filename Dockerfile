@@ -1,6 +1,11 @@
-FROM 
+FROM  httpd:2.4
 
-RUN rm -rf /var/www/html/* 
+WORKDIR app
 
-COPY ./ /var/www/html/
+COPY . .
+
+RUN cp -r ./*  /usr/local/apache2/htdocs/
+
+EXPOSE 80
+
 
